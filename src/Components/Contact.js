@@ -47,7 +47,7 @@ class Contact extends Component {
                      <div
                         className="calendly-inline-widget"
                         data-url="https://calendly.com/mandoor1997"
-                        style={{ minWidth: '820px', height: '500px' }} />
+                        style={{ minWidth: '400px', height: '400px' }} />
                   </div>
                </div>
                {/* calendly component ends */}
