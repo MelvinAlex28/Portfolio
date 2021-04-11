@@ -53,7 +53,7 @@
         "company":"Don Bosco Institute of Technology",
         "title": "Frontend Developer Intern",
         "years": "July 2017 - October 2017",
-        "description": "Developed and implemented along with a team of UI/UX designers a visually appealing Front End of the Don Bosco Journal of Science and Engineering using Bootstrap, HTML, CSS and JavaScript.\nAssessed UI and UX designs for technical feasibility."
+        "description": "Developed a visually appealing Front End of the Don Bosco Journal of Science and Engineering along with a team of UI/UX designers.Designed the Home, About and Admin pages using HTML, CSS, Bootstrap and JavaScript.\nAssessed the UI designs for technical feasibility. "
       }
     ],
     "skills":[
@@ -102,28 +102,64 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Data Visualizatio",
-        "category":"Course Project where I developed visualizations on IMDB Movie dataset",
-        "image":"visual.png",
-        "url":"github.com/MelvinAlex28/Data-Visualization-Individual-Project"
+        "title":"Face Mask Detection",
+        "description":"Python - Libraries: Numpy, Matplotlib, Scipy, Scikit Learn, OpenCV, Tenserflow, Keras, ",
+        "years":"September-April 2021",
+        "url":""
+      },
+      {
+        "title":"Data Visualization: IMBD Movie Ratings (1916-2016) | Export Import Trade Between Nations worldwide",
+        "description":"Python, Excel, JavaScript-D3Js, HTML, CSS, Github",
+        "years":"September-December 2020",
+        "url":"https://github.com/MelvinAlex28/Data-Visualization-Individual-Project"
       },
       {
         "title":"Weather Application",
-        "category":"Full stack Weather Application using React",
-        "image":"weather.png",
+        "description":"ReactJs, HTML, CSS, API",
+        "years":"May-Jun 2020",
         "url":"https://github.com/MelvinAlex28/weatherapplication"
       },
       {
+        "title":"Covid-19 Data Analysis and Forecasting",
+        "description":"Python - Libraries: Pandas, Numpy, Matplotlib, Seaborn, Plotly, Folium, Forcasting Algorithm: Prophet",
+        "years":"April-May 2020",
+        "url":"https://github.com/MelvinAlex28/Covid_19_Analysis_Forecasting-"
+      },
+      {
         "title":"SQL Query Evaluator",
-        "category":"Designed a Full-Stack Database to perform sql operations",
-        "image":"sql.png",
+        "description":"Java, SQL, Git, Netbeans",
+        "years":"February-April 2020",
         "url":"https://github.com/MelvinAlex28/CIS552Project"
       },
       {
+        "title":"Credit Card Fraud Detection System",
+        "description":"Python - Libraries: Pandas, Numpy, Matplotlib, Seaborn, Scipy, Sklearn",
+        "years":"January 2020",
+        "url":"https://github.com/MelvinAlex28/Credit-Card-Fraud-Detection"
+      },
+      {
+        "title":"Handwritten Digit Recognition system using SVM",
+        "description":"Python - Libraries: Pandas, Numpy, Matplotlib, Sklearn, Joblib",
+        "years":"October-December 2019",
+        "url":"https://github.com/MelvinAlex28/Digit-Recognizer-Using-Hand-Written-Images"
+      },
+      {
+        "title":"Self Defense Training for Women Using VR",
+        "description":"C#, Unity, Blender, Python - Libraries: Pandas, Numpy, Algorithm: LSTM",
+        "years":"July 2018-April 2019",
+        "url":""
+      },
+      {
         "title":"Plagiarism Checker",
-        "category":"A software to check the plagiarism content present in the file submitted",
-        "image":"plagiarism.png",
+        "description":"A software to check the plagiarism content present in the file submitted",
+        "years":"January-March 2018",
         "url":"https://github.com/MelvinAlex28/Plagiarism"
+      },
+      {
+        "title":"Bug Tracking System",
+        "description":"A software to check the plagiarism content present in the file submitted",
+        "years":"September-November 2017",
+        "url":""
       }
     ]
   },

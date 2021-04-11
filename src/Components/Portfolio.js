@@ -5,20 +5,11 @@ class Portfolio extends Component {
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
-                  </div>
-                </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
-          </div>
+        // var projectImage = 'images/portfolio/'+projects.image;
+        return <div key={projects.title}><h3>{projects.title}</h3>
+               <p className = "info">{projects.description}<span>&bull;</span> <em className="date">{projects.years}</em></p>
+               <p className="newline">{projects.url}</p>
+           
         </div>
       })
     }
@@ -26,17 +17,17 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
 
-      <div className="row">
+      <div className="row skill">
 
-         <div className="twelve columns collapsed">
+         <div className="three columns header-col">
 
-            <h1>Check Out Some of My Work Below.</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+              <h1><span>Projects</span></h1>
+         </div>
+         <div className="nine columns main-col"> 
                 {projects}
             </div>
-          </div>
       </div>
+
    </section>
     );
   }
