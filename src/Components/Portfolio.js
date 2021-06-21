@@ -8,7 +8,8 @@ class Portfolio extends Component {
         // var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title}><h3>{projects.title}</h3>
                <p className = "info">{projects.description}<span>&bull;</span> <em className="date">{projects.years}</em></p>
-               <p className="newline">{projects.url}</p>
+               <a href = {projects.url}> Code Link</a>
+               
            
         </div>
       })

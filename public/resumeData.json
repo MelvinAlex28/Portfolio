@@ -13,7 +13,7 @@
       "state":"Massachusetts"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"Melvin_Andoor_Resume.pdf",
+    "resumedownload":"Melvin-Andoor-Resume.pdf",
     "social":[
       {
         "name":"facebook",
@@ -50,11 +50,30 @@
     ],
     "work":[
       {
+        "company":"UMass Dartmouth",
+        "title": "Software Developer",
+        "years": "September 2020 - May 2021",
+        "description": "Developed dynamic and interactive website that ensured high traffic, page views and user experience resulting in 25% increase in admissions ",
+        "description2": "Debugged and reviewed code ensuring compatibility with devices, browsers, and operating systems.",
+        "description3": "Fixed bugs present in the existing websites and implemented enhancements that significantly improved the web functionality and performance"
+      },
+      {
+        "company":"Bluemount Logistics",
+        "title": "Full Stack Developer",
+        "years": "January 2018 - May 2019",
+        "description": "Developed, tested, and deployed a document generator web app leveraging Django for backend, ReactJS Framework for frontend and PostgreSQL to store and retrieve the data. ",
+        "description2": "Adopted Agile methodology for development and implemented the design specifications, system flow diagrams, documentation, and testing.",
+        "description3": "Used Kubernetes for containerization and Jenkins for continuous integration and deployment. Git was used to maintain the version control. Achieved 80% increase in document generation compared to the existing system"
+      },
+      {
         "company":"Don Bosco Institute of Technology",
         "title": "Frontend Developer Intern",
         "years": "July 2017 - October 2017",
-        "description": "Developed a visually appealing Front End of the Don Bosco Journal of Science and Engineering along with a team of UI/UX designers.Designed the Home, About and Admin pages using HTML, CSS, Bootstrap and JavaScript.\nAssessed the UI designs for technical feasibility. "
+        "description": "Developed a visually appealing Front End of the Don Bosco Journal of Science and Engineering and spearheaded a team of UI/UX designers. documenting & creating design documents on confluence for the team to leverage whenever required. ",
+        "description2": "Designed and developed Home, About and Admin pages using HTML, CSS, Bootstrap and JavaScript. Due to this revenue of the institute was increased by $200,000 as institute was advertised and many new students were admitted.",
+        "description3": "Assessed the UI designs for technical feasibility and constantly updated UI to provide better user experience. "
       }
+      
     ],
     "skills":[
       {
@@ -105,7 +124,7 @@
         "title":"Face Mask Detection",
         "description":"Python - Libraries: Numpy, Matplotlib, Scipy, Scikit Learn, OpenCV, Tenserflow, Keras, ",
         "years":"September-April 2021",
-        "url":""
+        "url":"https://github.com/MelvinAlex28/FaceMask"
       },
       {
         "title":"Data Visualization: IMBD Movie Ratings (1916-2016) | Export Import Trade Between Nations worldwide",
